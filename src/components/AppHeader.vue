@@ -24,7 +24,7 @@ export default {
         <nav class="navbar bg-black">
           <div class="container bg-black">
             <a class="navbar-brand" href="#">
-              <img src="../assets/img/img/logo-200x34.png" alt="Bootstrap">
+              <img src="../assets/img/logo-200x34.png" alt="Bootstrap">
             </a>
           </div>
         </nav>
