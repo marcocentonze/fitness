@@ -23,13 +23,13 @@ export default {
 
                 <div class="">
                     <!-- left -->
-                    <h5>adsda</h5>
-                    <h1>Take ahdadhsjadajh</h1>
+                    <h5 class="text-danger" style="padding-top:150px;">Certified fitness professional</h5>
+                    <h1 class="display-1 text-white"><b>Take control of your health</b></h1>
                     <!-- linea gialla -->
-                    <p>adadsadsad</p>
+                    <p style="color:#5F5B5F;">Curabitur non nulla sit amet nisl tempus convalids quis act lectus dolor sit amet.</p>
                     <span>
-                        <button>visit yt</button>
-                        <button>but it today</button>
+                        <button class="btn-youtube text-white me-3"><i class="fa-brands fa-youtube pe-2"></i>Visit my Youtube channel</button>
+                        <button class="btn-buy-avada text-white">Buy Avada today <i class="fa-solid fa-arrow-right"></i></button>
                     </span>
                 </div>
             </div>
@@ -92,12 +92,33 @@ export default {
 <style lang="scss" scoped>
 @use '../../src/assets/scss/variables' as *;
 
+/* section take control */
 .bg-image-custom {
     background-image: url("../assets/img/slider82x-scaled.jpg");
     background-size: cover;
     height: 700px;
 }
 
+
+.btn-youtube{
+    background-color: $medium-blue;
+  border-radius: 20px;
+  padding:10px 25px;
+  border-color: $medium-blue;
+}
+
+.btn-buy-avada{
+    background-color: $dark-black;
+  border-radius: 20px;
+  padding:10px 25px;
+  border-color: $medium-grey;
+}
+
+/* fine section take control */
+
+
+
+/* section services */
 .services {
     background: rgb(9, 65, 214);
     background: linear-gradient(90deg, rgba(9, 65, 214, 1) 13%, rgba(204, 69, 252, 1) 34%, rgba(180, 58, 167, 1) 63%, rgba(252, 69, 91, 1) 98%);
@@ -135,4 +156,7 @@ export default {
     }
    
 }
+
+
+/* fine section services */
 </style>
