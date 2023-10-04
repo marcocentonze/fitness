@@ -134,7 +134,7 @@ export default {
             <h6 class="pe-5"><b>View all videos <i class="fa-solid fa-greater-than fa-2xs ps-1 pt-2"></i> </b></h6>
         </div>
 
-        <div class="d-flex">
+        <div class="d-flex justify-content-center">
             <div>
                 <img src="../assets/img/video2-2x.jpg" style="width: 92%;">
                 <h5 class="text-center pt-4">Thighs & glute workout</h5>
@@ -173,9 +173,10 @@ export default {
     </section>
 
     <!-- services card pt2 -->
-    <section style="padding-top:150px;background-color: #060607;">
-        <div class="container">
-            <div class="card border-primary" style="width: 18rem;border-width: 4px;background-color: #060607;">
+    <section style="padding-top:150px;background-color: #060607;padding-bottom:100px;">
+        <div class="container d-flex justify-content-center">
+                  <!-- 1 card -->
+            <div class="card border-primary me-5" style="width: 24rem;border-width: 4px;background-color: #060607;">
                 <div class="card-body text-center pb-5 pt-4">
                     <div class="pt-5 pb-2">
                         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white"
@@ -190,6 +191,36 @@ export default {
                     <p class="card-text mb-3 text-secondary" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quam quidem
                         repellat? Beatae temporibus.</p>
                     <a href="#" class="card-link text-decoration-none text-white">Find a partner <i
+                            class="fa-solid fa-greater-than fa-2xs ps-1"></i></a>
+
+                </div>
+            </div>
+                <!-- 2 card -->
+            <div class="card border-primary me-5 ms-5" style="width: 24rem;border-width: 4px;background-color: #060607;">
+                <div class="card-body text-center pb-5 pt-4">
+                    <div class="pt-5 pb-2">
+                        <i class="fa-solid fa-dumbbell fa-2xl text-white"></i>
+                    </div>
+                    <h4 class="card-title text-white mt-3">Crossfit workout</h4>
+                    <h5 class="card-subtitle mb-4 text-warning">Push your limits</h5>
+                    <p class="card-text mb-3 text-secondary" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quam quidem
+                        repellat? Beatae temporibus.</p>
+                    <a href="#" class="card-link text-decoration-none text-white">Learn about Crossfit <i
+                            class="fa-solid fa-greater-than fa-2xs ps-1"></i></a>
+
+                </div>
+            </div>
+                 <!-- 3 card -->
+            <div class="card border-primary ms-5" style="width: 24rem;border-width: 4px;background-color: #060607;">
+                <div class="card-body text-center pb-5 pt-4">
+                    <div class="pt-5 pb-2">
+                        <i class="fa-solid fa-weight-scale fa-2xl text-white"></i>
+                    </div>
+                    <h4 class="card-title text-white mt-3">Weight loss plan</h4>
+                    <h5 class="card-subtitle mb-4 text-warning">Shed those pounds</h5>
+                    <p class="card-text mb-3 text-secondary" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quam quidem
+                        repellat? Beatae temporibus.</p>
+                    <a href="#" class="card-link text-decoration-none text-white">Schedule a workout <i
                             class="fa-solid fa-greater-than fa-2xs ps-1"></i></a>
 
                 </div>
