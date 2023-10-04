@@ -281,6 +281,80 @@ export default {
      </div>
 </section>
 
+
+<!-- 4 sport center -->
+<section style="padding: 100px;">
+<div class="container d-flex justify-content-center">
+      <!-- card 1 -->
+    <div class="card me-5 ms-5 border-0" style="width: 26rem;">
+                <div class="card-body text-center pb-5 pt-4 ">
+                    <div class="pt-5 pb-2">
+                        <img src="../assets/img/sponsor-1-2x.png" class="w-100">
+                    </div>
+                    
+                    <p class="card-text mb-3 text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+                        quam quidem
+                        repellat? Beatae temporibus.</p>
+                    <a href="#" class="card-link text-decoration-none text-black">Visit Yoga Studio <i
+                            class="fa-solid fa-greater-than fa-2xs ps-1"></i></a>
+
+                </div>
+            </div>
+
+            <!-- card 2 -->
+            <div class="card me-5 ms-5 border-0" style="width: 26rem;">
+                <div class="card-body text-center pb-5 pt-4">
+                    <div class="pt-5 pb-2">
+                        <img src="../assets/img/sponsor-2-2x.png" class="w-100">
+                    </div>
+                    
+                    <p class="card-text mb-3 text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+                        quam quidem
+                        repellat? Beatae temporibus.</p>
+                    <a href="#" class="card-link text-decoration-none text-black">Visit Yoga Studio <i
+                            class="fa-solid fa-greater-than fa-2xs ps-1"></i></a>
+
+                </div>
+            </div>
+
+            <!-- card 3 -->
+            <div class="card me-5 ms-5 border-0" style="width: 26rem;">
+                <div class="card-body text-center pb-5 pt-4">
+                    <div class="pt-5 pb-2">
+                        <img src="../assets/img/sponsor-3-2x.png" class="w-100">
+                    </div>
+                    
+                    <p class="card-text mb-3 text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+                        quam quidem
+                        repellat? Beatae temporibus.</p>
+                    <a href="#" class="card-link text-decoration-none text-black">Visit Yoga Studio <i
+                            class="fa-solid fa-greater-than fa-2xs ps-1"></i></a>
+
+                </div>
+            </div>
+
+            <!-- card 4 -->
+            <div class="card me-5 ms-5 border-0" style="width: 26rem;">
+                <div class="card-body text-center pb-5 pt-4">
+                    <div class="pt-5 pb-2">
+                        <img src="../assets/img/sponsor-4-2x.png" class="w-100">
+                    </div>
+                    
+                    <p class="card-text mb-3 text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+                        quam quidem
+                        repellat? Beatae temporibus.</p>
+                    <a href="#" class="card-link text-decoration-none text-black">Visit Yoga Studio <i
+                            class="fa-solid fa-greater-than fa-2xs ps-1"></i></a>
+
+                </div>
+            </div>
+
+
+</div>
+</section>
+
+
+
 </template>
 
 <style lang="scss" scoped>
@@ -424,6 +498,7 @@ background-size: cover;
     background-color: $medium-blue;
 
 }
+/* fine quotation section */
 
 
 
