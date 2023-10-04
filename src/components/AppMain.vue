@@ -109,22 +109,47 @@ export default {
                 <img src="../assets/img/unnamed.jpg">
                 <div class="info">
                     <a href="#" style="color:#888788">ThemeFusion</a>
-                    <span style="background-color:#ee1e29"><a href="#" class="text-white pe-2"><i class="fa-brands fa-youtube px-2"></i>Youtube</a></span>
+                    <span style="background-color:#ee1e29"><a href="#" class="text-white pe-2"><i
+                                class="fa-brands fa-youtube px-2"></i>Youtube</a></span>
                 </div>
                 <div class="d-flex">
-                    <span class="text-gray pt-0" style="margin-top:25px;background-color: #cdcbcf;padding:1px 5px;border-color:#555454"><a href="#" class="text-decoration-none text-secondary">999+</a></span>
+                    <span class="text-gray pt-0"
+                        style="margin-top:25px;background-color: #cdcbcf;padding:1px 5px;border-color:#555454"><a href="#"
+                            class="text-decoration-none text-secondary">999+</a></span>
                 </div>
             </div>
 
-            <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et suscipit, repudiandae modi<br> temporibus ut, deleniti aliquam obcaecati totam fuga neque molestias harum qui! </p>
+            <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et suscipit, repudiandae modi<br>
+                temporibus ut, deleniti aliquam obcaecati totam fuga neque molestias harum qui! </p>
 
             <button class="btn-youtube-2 text-white"><i class="fa-brands fa-youtube pe-2"></i>Visit my
-                            Youtube channel</button>
+                Youtube channel</button>
         </div>
-        
+    </div>
 
+    <div class="container" style="margin-top: 100px;">
+        <div class="d-flex justify-content-between mb-4">
+            <h4>Featured playlists</h4>
+            <h6 class="pe-5"><b>View all videos <i class="fa-solid fa-greater-than fa-2xs ps-1 pt-2"></i> </b></h6>
+        </div>
 
-
+        <div class="d-flex">
+            <div>
+                <img src="../assets/img/video2-2x.jpg" style="width: 92%;">
+                  <h5 class="text-center pt-4">Thighs & glute workout</h5>
+                  <h6 class="text-center text-primary">Increase your mobility</h6>
+            </div>
+            <div>
+                <img src="../assets/img/video7-2x.jpg" style="width: 92%;"> 
+                  <h5 class="text-center pt-4">Lift,firm & perk up</h5>
+                  <h6 class="text-center text-primary">Feel young again</h6>
+            </div>
+            <div>
+                <img src="../assets/img/video9-2x.jpg" style="width: 92%;">
+                  <h5 class="text-center pt-4">Slim & trim your waist</h5>
+                  <h6 class="text-center text-primary">Shed these extra pounds</h6>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -204,44 +229,36 @@ export default {
 /* youtube channel section */
 .img-youtube-custom {
     width: 90%;
-    object-fit:scale-down ;
+    object-fit: scale-down;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 2px;
 }
 
 .d-flex {
-  display: flex;
-  align-items: center; 
+    display: flex;
+    align-items: center;
 }
 
 .info {
-  display: flex;
-  flex-direction: column; 
-  margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
 }
 
 .info a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .fa-youtube {
-  margin-right: 5px; 
+    margin-right: 5px;
 }
-.btn-youtube-2{
+
+.btn-youtube-2 {
     background-color: red;
     border-radius: 20px;
     padding: 10px 25px;
     border-color: red;
 }
+
 /*fine youtube channel section */
-
-
-
-
-
-
-
-
-
-
 </style>
