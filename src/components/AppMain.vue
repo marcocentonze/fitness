@@ -166,7 +166,8 @@ export default {
                     <span><button class="btn-newsletter text-white">Suscribe</button></span>
                     <p class="pt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet saepe harum distinctio
                         <br>
-                        nulla, quae, minima nostrum delectus.</p>
+                        nulla, quae, minima nostrum delectus.
+                    </p>
                 </div>
             </div>
         </div>
@@ -175,12 +176,12 @@ export default {
     <!-- services card pt2 -->
     <section style="padding-top:150px;background-color: #060607;padding-bottom:100px;">
         <div class="container d-flex justify-content-center">
-                  <!-- 1 card -->
+            <!-- 1 card -->
             <div class="card border-primary me-5" style="width: 24rem;border-width: 4px;background-color: #060607;">
                 <div class="card-body text-center pb-5 pt-4">
                     <div class="pt-5 pb-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white"
-                            class="bi bi-smartwatch" viewBox="0 0 16 16">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" class="bi bi-smartwatch"
+                            viewBox="0 0 16 16">
                             <path d="M9 5a.5.5 0 0 0-1 0v3H6a.5.5 0 0 0 0 1h2.5a.5.5 0 0 0 .5-.5V5z" />
                             <path
                                 d="M4 1.667v.383A2.5 2.5 0 0 0 2 4.5v7a2.5 2.5 0 0 0 2 2.45v.383C4 15.253 4.746 16 5.667 16h4.666c.92 0 1.667-.746 1.667-1.667v-.383a2.5 2.5 0 0 0 2-2.45V8h.5a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 0-.5-.5H14v-.5a2.5 2.5 0 0 0-2-2.45v-.383C12 .747 11.254 0 10.333 0H5.667C4.747 0 4 .746 4 1.667zM4.5 3h7A1.5 1.5 0 0 1 13 4.5v7a1.5 1.5 0 0 1-1.5 1.5h-7A1.5 1.5 0 0 1 3 11.5v-7A1.5 1.5 0 0 1 4.5 3z" />
@@ -188,14 +189,15 @@ export default {
                     </div>
                     <h4 class="card-title text-white mt-3">Team Training</h4>
                     <h5 class="card-subtitle mb-4 text-warning">Find a partner</h5>
-                    <p class="card-text mb-3 text-secondary" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quam quidem
+                    <p class="card-text mb-3 text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+                        quam quidem
                         repellat? Beatae temporibus.</p>
                     <a href="#" class="card-link text-decoration-none text-white">Find a partner <i
                             class="fa-solid fa-greater-than fa-2xs ps-1"></i></a>
 
                 </div>
             </div>
-                <!-- 2 card -->
+            <!-- 2 card -->
             <div class="card border-primary me-5 ms-5" style="width: 24rem;border-width: 4px;background-color: #060607;">
                 <div class="card-body text-center pb-5 pt-4">
                     <div class="pt-5 pb-2">
@@ -203,14 +205,15 @@ export default {
                     </div>
                     <h4 class="card-title text-white mt-3">Crossfit workout</h4>
                     <h5 class="card-subtitle mb-4 text-warning">Push your limits</h5>
-                    <p class="card-text mb-3 text-secondary" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quam quidem
+                    <p class="card-text mb-3 text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+                        quam quidem
                         repellat? Beatae temporibus.</p>
                     <a href="#" class="card-link text-decoration-none text-white">Learn about Crossfit <i
                             class="fa-solid fa-greater-than fa-2xs ps-1"></i></a>
 
                 </div>
             </div>
-                 <!-- 3 card -->
+            <!-- 3 card -->
             <div class="card border-primary ms-5" style="width: 24rem;border-width: 4px;background-color: #060607;">
                 <div class="card-body text-center pb-5 pt-4">
                     <div class="pt-5 pb-2">
@@ -218,16 +221,66 @@ export default {
                     </div>
                     <h4 class="card-title text-white mt-3">Weight loss plan</h4>
                     <h5 class="card-subtitle mb-4 text-warning">Shed those pounds</h5>
-                    <p class="card-text mb-3 text-secondary" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quam quidem
+                    <p class="card-text mb-3 text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+                        quam quidem
                         repellat? Beatae temporibus.</p>
-                    <a href="#" class="card-link text-decoration-none text-white">Schedule a workout <i
-                            class="fa-solid fa-greater-than fa-2xs ps-1"></i></a>
+                    <a href="#" class="card-link text-decoration-none text-white">Schedule a workout
+                        <i class="fa-solid fa-greater-than fa-2xs ps-1"></i></a>
 
                 </div>
             </div>
 
         </div>
     </section>
+
+
+    <!-- latest articles -->
+
+    <section>
+      
+
+        <div class="container" style="padding: 100px;">
+        <div class="d-flex justify-content-between mb-4">
+            <h4 class="pe-4">Latest articles</h4>
+            <h6 class="pe-5"><b>Read all articles <i class="fa-solid fa-greater-than fa-2xs ps-1 pt-2"></i> </b></h6>
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <div class="me-5">
+                <img src="../assets/img/blog4-2x-1200x773.jpg" style="width:24rem;">
+                <h5 class="text-center pt-4">The best protein shake</h5>
+                <p class="text-center text-secondary">By <span class="text-black">Admin</span> | November 26th,2019 | <span class="text-black">Gym</span></p>
+            </div>
+            <div class="me-5"> 
+                <img src="../assets/img/blog1-2x-1200x773.jpg" style="width:24rem;">
+                <h5 class="text-center pt-4">Ultimate cardio workout</h5>
+                <p class="text-center text-secondary">By <span class="text-black">Admin</span> | November 26th,2019 | <span class="text-black">Gym</span></p>
+            </div>
+            <div class="me-5">
+                <img src="../assets/img/blog3-2x-1200x773.jpg" style="width:24rem;">
+                <h5 class="text-center pt-4">New juices available now</h5>
+                <p class="text-center text-secondary">By <span class="text-black">Admin</span> | November 26th,2019 | <span class="text-black">Gym</span></p>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- quotation -->
+    <section class="img-custom-quotation d-flex align-items-center" style="padding: 100px; height: 700px;">
+     <div class="container-fluid">
+        <div class="container">
+            <div class="text-center">
+                <h1 class="text-white pb-5">"I've failed over and over again in my <br>
+                    life. And that is why I succeed."</h1>
+
+                <p class="text-white pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex voluptate, reprehenderit, impedit consequatur ullam voluptatem ipsum <br>
+                    alias exercitationem error dolores asperiores modi.</p>
+                <button class="btn-custom-quotation text-white">Buy Avada today <i class="fa-solid fa-greater-than fa-2xs ps-1 pt-2"></i></button>
+            </div>
+        </div>
+     </div>
+</section>
+
 </template>
 
 <style lang="scss" scoped>
@@ -358,4 +411,22 @@ export default {
     border-color: $medium-blue;
     background-color: $medium-blue;
 }
+
+/* quotation section */
+.img-custom-quotation{
+background-image: url('../assets/img/banner2-2x.jpg');
+background-size: cover;
+}
+.btn-custom-quotation{
+    border-radius: 20px;
+    padding:8px 20px;
+    border-color: $medium-blue;
+    background-color: $medium-blue;
+
+}
+
+
+
+
+
 </style>
