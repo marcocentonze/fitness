@@ -353,6 +353,18 @@ export default {
 </div>
 </section>
 
+<!-- workout of the day -->
+<section class="img-custom-workout" style="padding: 100px;height: 700px;">
+    <div class="container d-flex justify-content-center align-items-center h-100">
+        <div class="text-center">
+            <a href="#"><i class="fa-solid fa-circle-play text-white fa-3x"></i></a>
+            <h1 class="text-white">Crossfit workout of the day</h1>
+            <h4 class="text-warning">November 15th, 2019</h4>
+            <a href="#" class="text-decoration-none"><p class="text-white">View all videos <i class="fa-solid fa-arrow-right"></i></p></a>
+        </div>
+        
+    </div>
+</section>
 
 
 </template>
@@ -500,6 +512,11 @@ background-size: cover;
 }
 /* fine quotation section */
 
+/* workout of the day section */
+.img-custom-workout{
+    background-image: url('../assets/img/banner14-2x.jpg');
+    background-size: cover;
+}
 
 
 
