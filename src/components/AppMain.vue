@@ -126,8 +126,9 @@ export default {
                 Youtube channel</button>
         </div>
     </div>
-
-    <div class="container" style="margin-top: 100px;">
+     
+     <!-- playlist -->
+    <div class="container" style="margin-top: 100px;padding-bottom: 100px;">
         <div class="d-flex justify-content-between mb-4">
             <h4>Featured playlists</h4>
             <h6 class="pe-5"><b>View all videos <i class="fa-solid fa-greater-than fa-2xs ps-1 pt-2"></i> </b></h6>
@@ -151,6 +152,24 @@ export default {
             </div>
         </div>
     </div>
+
+    <!-- newsletter -->
+ <section style="height: 500px;">
+    <div class="container-fluid bg-image-newsletter">
+        <div class="container">
+     <div>
+        <h5 class="text-danger" style="padding-top:100px;">Join our mailing list today</h5>
+        <h1 class="text-white" style="padding-bottom:100px;">Insider offers & flash sales in your <br> inbox every week</h1>
+
+        <input type="email" placeholder="Insert your email..." class="input-newsletter">
+        <span ><button class="btn-newsletter text-white">Suscribe</button></span>
+        <p class="pt-4" style="padding-bottom:200px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet saepe harum distinctio <br>
+            nulla, quae, minima nostrum delectus.</p>
+     </div>
+    </div>
+    </div>
+ </section>
+
 </template>
 
 <style lang="scss" scoped>
@@ -261,4 +280,27 @@ export default {
 }
 
 /*fine youtube channel section */
+
+/* newsletter section */
+.bg-image-newsletter{
+    background-image: url("../assets/img/banner1-2x.jpg");
+    background-size: cover;
+}
+.input-newsletter{
+    border-radius: 20px;
+    padding:6px 10px;
+    width:450px;
+}
+.btn-newsletter{
+padding:8px 60px;
+border-radius: 20px;
+margin-left:15px;
+border-color: $medium-blue;
+background-color: $medium-blue;
+}
+
+
+
+
+
 </style>
