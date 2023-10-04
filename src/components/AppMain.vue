@@ -126,8 +126,8 @@ export default {
                 Youtube channel</button>
         </div>
     </div>
-     
-     <!-- playlist -->
+
+    <!-- playlist -->
     <div class="container" style="margin-top: 100px;padding-bottom: 100px;">
         <div class="d-flex justify-content-between mb-4">
             <h4>Featured playlists</h4>
@@ -137,39 +137,66 @@ export default {
         <div class="d-flex">
             <div>
                 <img src="../assets/img/video2-2x.jpg" style="width: 92%;">
-                  <h5 class="text-center pt-4">Thighs & glute workout</h5>
-                  <h6 class="text-center text-primary">Increase your mobility</h6>
+                <h5 class="text-center pt-4">Thighs & glute workout</h5>
+                <h6 class="text-center text-primary">Increase your mobility</h6>
             </div>
             <div>
-                <img src="../assets/img/video7-2x.jpg" style="width: 92%;"> 
-                  <h5 class="text-center pt-4">Lift,firm & perk up</h5>
-                  <h6 class="text-center text-primary">Feel young again</h6>
+                <img src="../assets/img/video7-2x.jpg" style="width: 92%;">
+                <h5 class="text-center pt-4">Lift,firm & perk up</h5>
+                <h6 class="text-center text-primary">Feel young again</h6>
             </div>
             <div>
                 <img src="../assets/img/video9-2x.jpg" style="width: 92%;">
-                  <h5 class="text-center pt-4">Slim & trim your waist</h5>
-                  <h6 class="text-center text-primary">Shed these extra pounds</h6>
+                <h5 class="text-center pt-4">Slim & trim your waist</h5>
+                <h6 class="text-center text-primary">Shed these extra pounds</h6>
             </div>
         </div>
     </div>
 
     <!-- newsletter -->
- <section style="height: 500px;">
-    <div class="container-fluid bg-image-newsletter">
+    <section style="height: 500px;">
+        <div class="container-fluid bg-image-newsletter" style="padding-bottom:100px;">
+            <div class="container">
+                <div>
+                    <h5 class="text-danger" style="padding-top:100px;">Join our mailing list today</h5>
+                    <h1 class="text-white" style="padding-bottom:100px;">Insider offers & flash sales in your <br> inbox
+                        every week</h1>
+
+                    <input type="email" placeholder="Insert your email..." class="input-newsletter">
+                    <span><button class="btn-newsletter text-white">Suscribe</button></span>
+                    <p class="pt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet saepe harum distinctio
+                        <br>
+                        nulla, quae, minima nostrum delectus.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services card pt2 -->
+    <section style="padding-top:150px;background-color: #060607;">
         <div class="container">
-     <div>
-        <h5 class="text-danger" style="padding-top:100px;">Join our mailing list today</h5>
-        <h1 class="text-white" style="padding-bottom:100px;">Insider offers & flash sales in your <br> inbox every week</h1>
+            <div class="card border-primary" style="width: 18rem;border-width: 4px;background-color: #060607;">
+                <div class="card-body text-center pb-5 pt-4">
+                    <div class="pt-5 pb-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white"
+                            class="bi bi-smartwatch" viewBox="0 0 16 16">
+                            <path d="M9 5a.5.5 0 0 0-1 0v3H6a.5.5 0 0 0 0 1h2.5a.5.5 0 0 0 .5-.5V5z" />
+                            <path
+                                d="M4 1.667v.383A2.5 2.5 0 0 0 2 4.5v7a2.5 2.5 0 0 0 2 2.45v.383C4 15.253 4.746 16 5.667 16h4.666c.92 0 1.667-.746 1.667-1.667v-.383a2.5 2.5 0 0 0 2-2.45V8h.5a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 0-.5-.5H14v-.5a2.5 2.5 0 0 0-2-2.45v-.383C12 .747 11.254 0 10.333 0H5.667C4.747 0 4 .746 4 1.667zM4.5 3h7A1.5 1.5 0 0 1 13 4.5v7a1.5 1.5 0 0 1-1.5 1.5h-7A1.5 1.5 0 0 1 3 11.5v-7A1.5 1.5 0 0 1 4.5 3z" />
+                        </svg>
+                    </div>
+                    <h4 class="card-title text-white mt-3">Team Training</h4>
+                    <h5 class="card-subtitle mb-4 text-warning">Find a partner</h5>
+                    <p class="card-text mb-3 text-secondary" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quam quidem
+                        repellat? Beatae temporibus.</p>
+                    <a href="#" class="card-link text-decoration-none text-white">Find a partner <i
+                            class="fa-solid fa-greater-than fa-2xs ps-1"></i></a>
 
-        <input type="email" placeholder="Insert your email..." class="input-newsletter">
-        <span ><button class="btn-newsletter text-white">Suscribe</button></span>
-        <p class="pt-4" style="padding-bottom:200px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet saepe harum distinctio <br>
-            nulla, quae, minima nostrum delectus.</p>
-     </div>
-    </div>
-    </div>
- </section>
+                </div>
+            </div>
 
+        </div>
+    </section>
 </template>
 
 <style lang="scss" scoped>
@@ -282,25 +309,22 @@ export default {
 /*fine youtube channel section */
 
 /* newsletter section */
-.bg-image-newsletter{
+.bg-image-newsletter {
     background-image: url("../assets/img/banner1-2x.jpg");
     background-size: cover;
 }
-.input-newsletter{
+
+.input-newsletter {
     border-radius: 20px;
-    padding:6px 10px;
-    width:450px;
-}
-.btn-newsletter{
-padding:8px 60px;
-border-radius: 20px;
-margin-left:15px;
-border-color: $medium-blue;
-background-color: $medium-blue;
+    padding: 6px 10px;
+    width: 450px;
 }
 
-
-
-
-
+.btn-newsletter {
+    padding: 8px 60px;
+    border-radius: 20px;
+    margin-left: 15px;
+    border-color: $medium-blue;
+    background-color: $medium-blue;
+}
 </style>
