@@ -2,6 +2,9 @@
 
 export default {
   name: 'AppHeader',
+  props: {
+        menu: Object
+    },
   data() {
     return {
 
@@ -34,25 +37,10 @@ export default {
       <div class="container-header-right d-flex justify-content-center">
         <div class="d-flex">
           <ul class="nav nav-underline">
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-header" href="#">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-header" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-header">Videos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-header">Blog</a>
-            </li>
-            <li class="nav-item pe-2">
-              <a class="nav-link text-header">Store</a>
-            </li>
-          </ul>
+        <li class="nav-item" v-for="item in menu">
+          <a class="nav-link text-white" :href="item.url">{{ item.name }}</a>
+        </li>
+      </ul>
           
         </div>
 
