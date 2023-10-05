@@ -37,12 +37,41 @@ export default {
                 </div>
                 <div class="text-center" style="width:40%;padding-top:40px;padding-left:20px;">
                     <a href="#"><i class="fa-solid fa-circle-play text-white fa-3x display-1"></i></a>
+                    <div class="col-1 av-sideShortcuts position-absolute">
+
+                        <div class="demos">
+
+                            <div class="outer">
+                            </div>
+
+                            <div class="middle"></div>
+
+                            <div class="icon">
+                                <i class="fa-brands fa-atlassian fa-flip-horizontal"></i>
+                            </div>
+
+                            <span>Demos</span>
+
+                        </div>
+
+                        <div class="discount">
+
+                            <a href="#" class="text-decoration-none">
+                                <h4><span class="currency">$</span>39</h4>
+                                <span>On Sale</span>
+                            </a>
+
+                        </div>
+
+                    </div>
 
                 </div>
-            </div>
-            <!-- right è l'immagine messo come bg -->
 
+            </div>
         </div>
+        <!-- right è l'immagine messo come bg -->
+
+
     </section>
 
 
@@ -274,19 +303,22 @@ export default {
                     <img src="../assets/img/blog4-2x-1200x773.jpg" style="width:24rem;">
                     <h5 class="text-center pt-4">The best protein shake</h5>
                     <p class="text-center text-secondary">By <span class="text-black">Admin</span> | November 26th,2019 |
-                        <span class="text-black">Gym</span></p>
+                        <span class="text-black">Gym</span>
+                    </p>
                 </div>
                 <div class="me-5">
                     <img src="../assets/img/blog1-2x-1200x773.jpg" style="width:24rem;">
                     <h5 class="text-center pt-4">Ultimate cardio workout</h5>
                     <p class="text-center text-secondary">By <span class="text-black">Admin</span> | November 26th,2019 |
-                        <span class="text-black">Gym</span></p>
+                        <span class="text-black">Gym</span>
+                    </p>
                 </div>
                 <div class="me-5">
                     <img src="../assets/img/blog3-2x-1200x773.jpg" style="width:24rem;">
                     <h5 class="text-center pt-4">New juices available now</h5>
                     <p class="text-center text-secondary">By <span class="text-black">Admin</span> | November 26th,2019 |
-                        <span class="text-black">Gym</span></p>
+                        <span class="text-black">Gym</span>
+                    </p>
                 </div>
             </div>
         </div>
@@ -422,6 +454,93 @@ export default {
     padding: 10px 25px;
     border-color: $medium-grey;
 }
+
+//  side label
+
+.av-sideShortcuts {
+    width: 4.5rem;
+    bottom: 61%;
+    left: 100%;
+    transform: translateX(-100%);
+    margin-left: -1rem;
+
+    .demos {
+        background-color: #ffffff;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        aspect-ratio: 1/1;
+        cursor: pointer;
+
+        .outer {
+            height: 3px;
+            background-color: #33475b;
+            border: 1px solid white;
+            width: 1.4rem
+        }
+
+        .middle {
+            height: 3px;
+            background-color: #33475b;
+            border: 1px solid white;
+            width: 1.7rem
+        }
+
+        .icon {
+            color: white;
+            background-color: #33475b;
+            border: 1px solid white;
+            border-radius: 5px;
+            width: 2.2rem;
+            height: 2rem;
+            text-align: center;
+            line-height: 2rem;
+        }
+
+        span {
+            color: #33475b;
+            font-weight: bold;
+            font-size: small;
+        }
+
+    }
+
+    .discount {
+        margin-top: 10px;
+        background-color: white;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        aspect-ratio: 1/1;
+        cursor: pointer;
+
+        h4 {
+            color: #7abc64;
+            ;
+            font-size: 1.9rem;
+            font-weight: bolder;
+            margin: 0;
+
+            .currency {
+                vertical-align: super;
+                color: #7abc64;
+                font-weight: bolder;
+            }
+        }
+
+        span {
+            color: #33475b;
+            font-weight: 500;
+            font-size: medium;
+        }
+
+    }
+}
+
 
 /* fine section take control */
 
@@ -564,4 +683,5 @@ export default {
     background: linear-gradient(135deg, hsla(229, 63%, 36%, 1) 39%, hsla(303, 55%, 47%, 1) 68%, hsla(356, 70%, 62%, 1) 85%);
     opacity: 0.5;
 }
+
 </style>
