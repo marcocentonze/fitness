@@ -55,7 +55,7 @@ export default {
 
 <!-- footer bottom -->
 <section style="height: 60px;background-color: black;">
-    <hr class="orizzontal-line-footer">
+   <div class="orizzontal-line-footer"></div>
     <p class="text-center text-secondary">© Copyright 2012 - 2020 | Avada theme by <span class="text-white">ThemeFusion</span> | All rights reserved | Powered by <span class="text-white">Wordpress</span></p>
 </section>
 
@@ -70,7 +70,8 @@ export default {
 
 .orizzontal-line-footer{
     width:100%;
-    border-top:22px solid $medium-grey;
+    border-top:2px solid $medium-grey;
+    padding-bottom:20px;
 }
 
 

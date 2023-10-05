@@ -35,10 +35,10 @@ export default {
                                 class="fa-solid fa-arrow-right"></i></button>
                     </span>
                 </div>
-                <div class="text-center"  style="width:40%;padding-top:40px;padding-left:20px;">  
-                     <a href="#"><i class="fa-solid fa-circle-play text-white fa-3x display-1"></i></a> 
-                    
-                    </div>
+                <div class="text-center" style="width:40%;padding-top:40px;padding-left:20px;">
+                    <a href="#"><i class="fa-solid fa-circle-play text-white fa-3x display-1"></i></a>
+
+                </div>
             </div>
             <!-- right è l'immagine messo come bg -->
 
@@ -100,11 +100,11 @@ export default {
     <div class="container-fluid d-flex">
         <!-- img left -->
         <div style="width: 50%; margin-top: -60px; position: relative;">
-        <img src="../assets/img/service15-2x.jpg" class="img-youtube-custom">
-        <div class="text-center" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
-            <a href="#"><i class="fa-solid fa-circle-play fa-3x display-1 text-primary"></i></a> 
+            <img src="../assets/img/service15-2x.jpg" class="img-youtube-custom">
+            <div class="text-center" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                <a href="#"><i class="fa-solid fa-circle-play fa-3x display-1 text-primary"></i></a>
+            </div>
         </div>
-    </div>
 
         <!-- text right -->
         <div style="width: 50%;">
@@ -141,41 +141,41 @@ export default {
             <h6 class="pe-5"><b>View all videos <i class="fa-solid fa-greater-than fa-2xs ps-1 pt-2"></i> </b></h6>
         </div>
 
-      
+
         <div class="d-flex justify-content-center">
-    <div style="text-align: center;">
-        <div style="position: relative; display: inline-block;">
-            <img src="../assets/img/video2-2x.jpg" style="width: 92%;">
-            <a href="#" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
-                <i class="fa-solid fa-circle-play fa-2x text-primary"></i>
-            </a>
+            <div style="text-align: center;">
+                <div style="position: relative; display: inline-block;">
+                    <img src="../assets/img/video2-2x.jpg" style="width: 92%;">
+                    <a href="#" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                        <i class="fa-solid fa-circle-play fa-2x text-primary"></i>
+                    </a>
+                </div>
+                <h5 class="text-center pt-4">Thighs & glute workout</h5>
+                <h6 class="text-center text-primary">Increase your mobility</h6>
+            </div>
+            <div style="text-align: center;">
+                <div style="position: relative; display: inline-block;">
+                    <img src="../assets/img/video7-2x.jpg" style="width: 92%;">
+                    <a href="#" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                        <i class="fa-solid fa-circle-play fa-2x text-primary"></i>
+                    </a>
+                </div>
+                <h5 class="text-center pt-4">Lift, firm & perk up</h5>
+                <h6 class="text-center text-primary">Feel young again</h6>
+            </div>
+            <div style="text-align: center;">
+                <div style="position: relative; display: inline-block;">
+                    <img src="../assets/img/video9-2x.jpg" style="width: 92%;">
+                    <a href="#" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                        <i class="fa-solid fa-circle-play fa-2x text-primary"></i>
+                    </a>
+                </div>
+                <h5 class="text-center pt-4">Slim & trim your waist</h5>
+                <h6 class="text-center text-primary">Shed these extra pounds</h6>
+            </div>
         </div>
-        <h5 class="text-center pt-4">Thighs & glute workout</h5>
-        <h6 class="text-center text-primary">Increase your mobility</h6>
     </div>
-    <div style="text-align: center;">
-        <div style="position: relative; display: inline-block;">
-            <img src="../assets/img/video7-2x.jpg" style="width: 92%;">
-            <a href="#" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
-                <i class="fa-solid fa-circle-play fa-2x text-primary"></i>
-            </a>
-        </div>
-        <h5 class="text-center pt-4">Lift, firm & perk up</h5>
-        <h6 class="text-center text-primary">Feel young again</h6>
-    </div>
-    <div style="text-align: center;">
-        <div style="position: relative; display: inline-block;">
-            <img src="../assets/img/video9-2x.jpg" style="width: 92%;">
-            <a href="#" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
-                <i class="fa-solid fa-circle-play fa-2x text-primary"></i>
-            </a>
-        </div>
-        <h5 class="text-center pt-4">Slim & trim your waist</h5>
-        <h6 class="text-center text-primary">Shed these extra pounds</h6>
-    </div>
-</div>
-</div>
-      
+
 
     <!-- newsletter -->
     <section style="height: 500px;">
@@ -261,61 +261,66 @@ export default {
     <!-- latest articles -->
 
     <section>
-      
+
 
         <div class="container" style="padding: 100px;">
-        <div class="d-flex justify-content-between mb-4">
-            <h4 class="pe-4">Latest articles</h4>
-            <h6 class="pe-5"><b>Read all articles <i class="fa-solid fa-greater-than fa-2xs ps-1 pt-2"></i> </b></h6>
-        </div>
+            <div class="d-flex justify-content-between mb-4">
+                <h4 class="pe-4">Latest articles</h4>
+                <h6 class="pe-5"><b>Read all articles <i class="fa-solid fa-greater-than fa-2xs ps-1 pt-2"></i> </b></h6>
+            </div>
 
-        <div class="d-flex justify-content-center">
-            <div class="me-5">
-                <img src="../assets/img/blog4-2x-1200x773.jpg" style="width:24rem;">
-                <h5 class="text-center pt-4">The best protein shake</h5>
-                <p class="text-center text-secondary">By <span class="text-black">Admin</span> | November 26th,2019 | <span class="text-black">Gym</span></p>
-            </div>
-            <div class="me-5"> 
-                <img src="../assets/img/blog1-2x-1200x773.jpg" style="width:24rem;">
-                <h5 class="text-center pt-4">Ultimate cardio workout</h5>
-                <p class="text-center text-secondary">By <span class="text-black">Admin</span> | November 26th,2019 | <span class="text-black">Gym</span></p>
-            </div>
-            <div class="me-5">
-                <img src="../assets/img/blog3-2x-1200x773.jpg" style="width:24rem;">
-                <h5 class="text-center pt-4">New juices available now</h5>
-                <p class="text-center text-secondary">By <span class="text-black">Admin</span> | November 26th,2019 | <span class="text-black">Gym</span></p>
+            <div class="d-flex justify-content-center">
+                <div class="me-5">
+                    <img src="../assets/img/blog4-2x-1200x773.jpg" style="width:24rem;">
+                    <h5 class="text-center pt-4">The best protein shake</h5>
+                    <p class="text-center text-secondary">By <span class="text-black">Admin</span> | November 26th,2019 |
+                        <span class="text-black">Gym</span></p>
+                </div>
+                <div class="me-5">
+                    <img src="../assets/img/blog1-2x-1200x773.jpg" style="width:24rem;">
+                    <h5 class="text-center pt-4">Ultimate cardio workout</h5>
+                    <p class="text-center text-secondary">By <span class="text-black">Admin</span> | November 26th,2019 |
+                        <span class="text-black">Gym</span></p>
+                </div>
+                <div class="me-5">
+                    <img src="../assets/img/blog3-2x-1200x773.jpg" style="width:24rem;">
+                    <h5 class="text-center pt-4">New juices available now</h5>
+                    <p class="text-center text-secondary">By <span class="text-black">Admin</span> | November 26th,2019 |
+                        <span class="text-black">Gym</span></p>
+                </div>
             </div>
         </div>
-    </div>
     </section>
 
     <!-- quotation -->
     <section class="img-custom-quotation d-flex align-items-center" style="padding: 100px; height: 700px;">
-     <div class="container-fluid">
-        <div class="container">
-            <div class="text-center">
-                <h1 class="text-white pb-5">"I've failed over and over again in my <br>
-                    life. And that is why I succeed."</h1>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="text-center">
+                    <h1 class="text-white pb-5">"I've failed over and over again in my <br>
+                        life. And that is why I succeed."</h1>
 
-                <p class="text-white pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex voluptate, reprehenderit, impedit consequatur ullam voluptatem ipsum <br>
-                    alias exercitationem error dolores asperiores modi.</p>
-                <button class="btn-custom-quotation text-white">Buy Avada today <i class="fa-solid fa-greater-than fa-2xs ps-1 pt-2"></i></button>
+                    <p class="text-white pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex voluptate,
+                        reprehenderit, impedit consequatur ullam voluptatem ipsum <br>
+                        alias exercitationem error dolores asperiores modi.</p>
+                    <button class="btn-custom-quotation text-white">Buy Avada today <i
+                            class="fa-solid fa-greater-than fa-2xs ps-1 pt-2"></i></button>
+                </div>
             </div>
         </div>
-     </div>
-</section>
+    </section>
 
 
-<!-- 4 sport center -->
-<section style="padding: 100px;">
-<div class="container d-flex justify-content-center">
-      <!-- card 1 -->
-    <div class="card me-5 ms-5 border-0" style="width: 26rem;">
+    <!-- 4 sport center -->
+    <section style="padding: 100px;">
+        <div class="container d-flex justify-content-center">
+            <!-- card 1 -->
+            <div class="card me-5 ms-5 border-0" style="width: 26rem;">
                 <div class="card-body text-center pb-5 pt-4 ">
                     <div class="pt-5 pb-2">
                         <img src="../assets/img/sponsor-1-2x.png" class="w-100">
                     </div>
-                    
+
                     <p class="card-text mb-3 text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
                         quam quidem
                         repellat? Beatae temporibus.</p>
@@ -331,7 +336,7 @@ export default {
                     <div class="pt-5 pb-2">
                         <img src="../assets/img/sponsor-2-2x.png" class="w-100">
                     </div>
-                    
+
                     <p class="card-text mb-3 text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
                         quam quidem
                         repellat? Beatae temporibus.</p>
@@ -347,7 +352,7 @@ export default {
                     <div class="pt-5 pb-2">
                         <img src="../assets/img/sponsor-3-2x.png" class="w-100">
                     </div>
-                    
+
                     <p class="card-text mb-3 text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
                         quam quidem
                         repellat? Beatae temporibus.</p>
@@ -363,7 +368,7 @@ export default {
                     <div class="pt-5 pb-2">
                         <img src="../assets/img/sponsor-4-2x.png" class="w-100">
                     </div>
-                    
+
                     <p class="card-text mb-3 text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
                         quam quidem
                         repellat? Beatae temporibus.</p>
@@ -374,23 +379,23 @@ export default {
             </div>
 
 
-</div>
-</section>
-
-<!-- workout of the day -->
-<section class="img-custom-workout" style="padding: 100px;height: 700px;">
-    <div class="container d-flex justify-content-center align-items-center h-100">
-        <div class="text-center">
-            <a href="#"><i class="fa-solid fa-circle-play text-primary fa-3x"></i></a>
-            <h1 class="text-white">Crossfit workout of the day</h1>
-            <h4 class="text-warning">November 15th, 2019</h4>
-            <a href="#" class="text-decoration-none"><p class="text-white">View all videos <i class="fa-solid fa-arrow-right"></i></p></a>
         </div>
-        
-    </div>
-</section>
+    </section>
 
+    <!-- workout of the day -->
+    <section class="img-custom-workout" style="padding: 100px;height: 700px;">
+        <div class="container d-flex justify-content-center align-items-center h-100">
+            <div class="text-center">
+                <a href="#"><i class="fa-solid fa-circle-play text-primary fa-3x"></i></a>
+                <h1 class="text-white">Crossfit workout of the day</h1>
+                <h4 class="text-warning">November 15th, 2019</h4>
+                <a href="#" class="text-decoration-none">
+                    <p class="text-white">View all videos <i class="fa-solid fa-arrow-right"></i></p>
+                </a>
+            </div>
 
+        </div>
+    </section>
 </template>
 
 <style lang="scss" scoped>
@@ -506,7 +511,7 @@ export default {
 /* newsletter section */
 .bg-image-newsletter {
     background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
-    url("../assets/img/banner1-2x.jpg");
+        url("../assets/img/banner1-2x.jpg");
     background-size: cover;
 }
 
@@ -525,18 +530,20 @@ export default {
 }
 
 /* quotation section */
-.img-custom-quotation{
+.img-custom-quotation {
     background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
-     url('../assets/img/banner2-2x.jpg');
-background-size: cover;
+        url('../assets/img/banner2-2x.jpg');
+    background-size: cover;
 }
-.btn-custom-quotation{
+
+.btn-custom-quotation {
     border-radius: 20px;
-    padding:8px 20px;
+    padding: 8px 20px;
     border-color: $medium-blue;
     background-color: $medium-blue;
 
 }
+
 /* fine quotation section */
 
 /* workout of the day section */
@@ -555,13 +562,6 @@ background-size: cover;
     bottom: 0;
     left: 0;
     background: linear-gradient(135deg, hsla(229, 63%, 36%, 1) 39%, hsla(303, 55%, 47%, 1) 68%, hsla(356, 70%, 62%, 1) 85%);
-    opacity: 0.5; 
+    opacity: 0.5;
 }
-
-
-
-
-
-
-
 </style>
