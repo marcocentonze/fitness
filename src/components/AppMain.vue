@@ -19,9 +19,9 @@ export default {
     <!-- take control of your health section -->
     <section class="take-control">
         <div class="container-fluid bg-image-custom">
-            <div class="container">
+            <div class="container d-flex">
 
-                <div class="">
+                <div class="" style="width:60%;">
                     <!-- left -->
                     <h5 class="text-danger" style="padding-top:150px;">Certified fitness professional</h5>
                     <h1 class="display-2 text-white"><b>Take control of your health</b></h1>
@@ -35,6 +35,10 @@ export default {
                                 class="fa-solid fa-arrow-right"></i></button>
                     </span>
                 </div>
+                <div class="text-center"  style="width:40%;padding-top:40px;padding-left:20px;">  
+                     <a href="#"><i class="fa-solid fa-circle-play text-white fa-3x display-1"></i></a> 
+                    
+                    </div>
             </div>
             <!-- right è l'immagine messo come bg -->
 
@@ -95,9 +99,12 @@ export default {
     <!-- youtube playlist section -->
     <div class="container-fluid d-flex">
         <!-- img left -->
-        <div style="width: 50%;margin-top:-60px;">
-            <img src="../assets/img/service15-2x.jpg" class="img-youtube-custom">
+        <div style="width: 50%; margin-top: -60px; position: relative;">
+        <img src="../assets/img/service15-2x.jpg" class="img-youtube-custom">
+        <div class="text-center" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+            <a href="#"><i class="fa-solid fa-circle-play fa-3x display-1 text-primary"></i></a> 
         </div>
+    </div>
 
         <!-- text right -->
         <div style="width: 50%;">
@@ -134,24 +141,41 @@ export default {
             <h6 class="pe-5"><b>View all videos <i class="fa-solid fa-greater-than fa-2xs ps-1 pt-2"></i> </b></h6>
         </div>
 
+      
         <div class="d-flex justify-content-center">
-            <div>
-                <img src="../assets/img/video2-2x.jpg" style="width: 92%;">
-                <h5 class="text-center pt-4">Thighs & glute workout</h5>
-                <h6 class="text-center text-primary">Increase your mobility</h6>
-            </div>
-            <div>
-                <img src="../assets/img/video7-2x.jpg" style="width: 92%;">
-                <h5 class="text-center pt-4">Lift,firm & perk up</h5>
-                <h6 class="text-center text-primary">Feel young again</h6>
-            </div>
-            <div>
-                <img src="../assets/img/video9-2x.jpg" style="width: 92%;">
-                <h5 class="text-center pt-4">Slim & trim your waist</h5>
-                <h6 class="text-center text-primary">Shed these extra pounds</h6>
-            </div>
+    <div style="text-align: center;">
+        <div style="position: relative; display: inline-block;">
+            <img src="../assets/img/video2-2x.jpg" style="width: 92%;">
+            <a href="#" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                <i class="fa-solid fa-circle-play fa-2x text-primary"></i>
+            </a>
         </div>
+        <h5 class="text-center pt-4">Thighs & glute workout</h5>
+        <h6 class="text-center text-primary">Increase your mobility</h6>
     </div>
+    <div style="text-align: center;">
+        <div style="position: relative; display: inline-block;">
+            <img src="../assets/img/video7-2x.jpg" style="width: 92%;">
+            <a href="#" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                <i class="fa-solid fa-circle-play fa-2x text-primary"></i>
+            </a>
+        </div>
+        <h5 class="text-center pt-4">Lift, firm & perk up</h5>
+        <h6 class="text-center text-primary">Feel young again</h6>
+    </div>
+    <div style="text-align: center;">
+        <div style="position: relative; display: inline-block;">
+            <img src="../assets/img/video9-2x.jpg" style="width: 92%;">
+            <a href="#" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                <i class="fa-solid fa-circle-play fa-2x text-primary"></i>
+            </a>
+        </div>
+        <h5 class="text-center pt-4">Slim & trim your waist</h5>
+        <h6 class="text-center text-primary">Shed these extra pounds</h6>
+    </div>
+</div>
+</div>
+      
 
     <!-- newsletter -->
     <section style="height: 500px;">
@@ -357,7 +381,7 @@ export default {
 <section class="img-custom-workout" style="padding: 100px;height: 700px;">
     <div class="container d-flex justify-content-center align-items-center h-100">
         <div class="text-center">
-            <a href="#"><i class="fa-solid fa-circle-play text-white fa-3x"></i></a>
+            <a href="#"><i class="fa-solid fa-circle-play text-primary fa-3x"></i></a>
             <h1 class="text-white">Crossfit workout of the day</h1>
             <h4 class="text-warning">November 15th, 2019</h4>
             <a href="#" class="text-decoration-none"><p class="text-white">View all videos <i class="fa-solid fa-arrow-right"></i></p></a>
@@ -450,6 +474,7 @@ export default {
     border-top-right-radius: 2px;
 }
 
+
 .d-flex {
     display: flex;
     align-items: center;
@@ -480,7 +505,8 @@ export default {
 
 /* newsletter section */
 .bg-image-newsletter {
-    background-image: url("../assets/img/banner1-2x.jpg");
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+    url("../assets/img/banner1-2x.jpg");
     background-size: cover;
 }
 
@@ -500,7 +526,8 @@ export default {
 
 /* quotation section */
 .img-custom-quotation{
-background-image: url('../assets/img/banner2-2x.jpg');
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+     url('../assets/img/banner2-2x.jpg');
 background-size: cover;
 }
 .btn-custom-quotation{
@@ -513,10 +540,26 @@ background-size: cover;
 /* fine quotation section */
 
 /* workout of the day section */
-.img-custom-workout{
-    background-image: url('../assets/img/banner14-2x.jpg');
+.img-custom-workout {
+    position: relative;
+    background: url('../assets/img/banner14-2x.jpg');
     background-size: cover;
+    height: 700px;
 }
+
+.img-custom-workout::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(135deg, hsla(229, 63%, 36%, 1) 39%, hsla(303, 55%, 47%, 1) 68%, hsla(356, 70%, 62%, 1) 85%);
+    opacity: 0.5; 
+}
+
+
+
 
 
 
