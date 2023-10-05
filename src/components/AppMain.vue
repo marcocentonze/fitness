@@ -25,7 +25,9 @@ export default {
                     <!-- left -->
                     <h5 class="text-danger" style="padding-top:150px;">Certified fitness professional</h5>
                     <h1 class="display-2 text-white"><b>Take control of your health</b></h1>
-                    <!-- linea gialla -->
+                    <div>
+                        <img src="../assets/img/screen_linea_hXl_icon.ico">
+                    </div>
                     <p style="color:#5F5B5F;">Curabitur non nulla sit amet nisl tempus convalids quis act lectus dolor sit
                         amet.</p>
                     <span>
@@ -110,6 +112,9 @@ export default {
                         will determine what you become after the game,<br>
                         wether you are a winner or a loser."
                     </h3>
+                    <div>
+                        <img src="../assets/img/screen_linea_hXl_icon.ico">
+                    </div>
                 </div>
                 <div class="d-flex justify-content-center" style="padding-bottom:140px;">
                     <img class="avatar-services mx-2" src="../assets/img/avatar-1-2x.jpg">
@@ -212,8 +217,11 @@ export default {
             <div class="container">
                 <div>
                     <h5 class="text-danger" style="padding-top:100px;">Join our mailing list today</h5>
-                    <h1 class="text-white" style="padding-bottom:100px;">Insider offers & flash sales in your <br> inbox
+                    <h1 class="text-white pb-1">Insider offers & flash sales in your <br> inbox
                         every week</h1>
+                        <div class="pb-4">
+                        <img src="../assets/img/screen_linea_hXl_icon.ico">
+                    </div>
 
                     <input type="email" placeholder="Insert your email..." class="input-newsletter">
                     <span><button class="btn-newsletter text-white">Suscribe</button></span>
@@ -329,8 +337,12 @@ export default {
         <div class="container-fluid">
             <div class="container">
                 <div class="text-center">
-                    <h1 class="text-white pb-5">"I've failed over and over again in my <br>
+                    <h1 class="text-white pb-3">"I've failed over and over again in my <br>
                         life. And that is why I succeed."</h1>
+                        <div class="pb-2">
+                        <img src="../assets/img/screen_linea_hXl_icon.ico">
+                    </div>
+                       
 
                     <p class="text-white pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex voluptate,
                         reprehenderit, impedit consequatur ullam voluptatem ipsum <br>
