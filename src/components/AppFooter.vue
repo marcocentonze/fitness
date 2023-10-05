@@ -23,7 +23,7 @@ export default {
           <span>
             <i
               v-for="link in post.socialLinks"
-              :class="['fa-brands', link.icon, 'pe-2']"
+              :class="['fa-brands custom-hover', link.icon, 'pe-2']"
               :style="{ color: link.color }"
             ></i>
           </span>
@@ -61,5 +61,10 @@ export default {
     width:100%;
     border-top:2px solid $medium-grey;
     padding-bottom:20px;
+}
+
+/* hover */
+.custom-hover:hover{
+  transform: scale(1.1); 
 }
 </style>

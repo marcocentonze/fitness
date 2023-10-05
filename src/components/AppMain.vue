@@ -24,7 +24,7 @@ export default {
                 <div class="" style="width:60%;">
                     <!-- left -->
                     <h5 class="text-danger" style="padding-top:150px;">Certified fitness professional</h5>
-                    <h1 class="display-2 text-white"><b>Take control of your health</b></h1>
+                    <h1 class="display-3 text-white"><b>Take control of your health</b></h1>
                     <div>
                         <img src="../assets/img/screen_linea_hXl_icon.ico">
                     </div>
@@ -37,7 +37,7 @@ export default {
                                 class="fa-solid fa-arrow-right"></i></button>
                     </span>
                 </div>
-                <div class="text-center" style="width:40%;padding-top:40px;padding-left:20px;">
+                <div class="text-center" style="width:40%;padding-top:150px;padding-left:200px;">
                     <a href="#"><i class="fa-solid fa-circle-play text-white fa-3x display-1"></i></a>
                     <div class="col-1 av-sideShortcuts position-absolute">
 
@@ -224,7 +224,7 @@ export default {
                     </div>
 
                     <input type="email" placeholder="Insert your email..." class="input-newsletter">
-                    <span><button class="btn-newsletter text-white">Suscribe</button></span>
+                    <span><button class="btn-newsletter text-white custom-hover">Suscribe</button></span>
                     <p class="pt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet saepe harum distinctio
                         <br>
                         nulla, quae, minima nostrum delectus.
