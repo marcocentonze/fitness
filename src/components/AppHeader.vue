@@ -46,9 +46,9 @@ export default {
 
         <div>
           <a class="text-black bg-btn-yellow text-decoration-none px-1 py-1 me-2">new</a>
-          <button class="text-white bg-btn-blue ms-5">Schedule a workout</button>
-          <i class="fa-solid fa-cart-shopping ms-5" style="color: grey;"></i>
-          <i class="fa-solid fa-magnifying-glass ms-4" style="color: grey;"></i>
+          <button class="text-white bg-btn-blue ms-5 custom-hover">Schedule a workout</button>
+          <i class="fa-solid fa-cart-shopping ms-5 custom-hover" style="color: grey;"></i>
+          <i class="fa-solid fa-magnifying-glass ms-4 custom-hover" style="color: grey;"></i>
         </div>
 
       </div>
@@ -83,5 +83,10 @@ export default {
   border-radius: 20px;
   padding:5px 15px;
   border-color: $medium-blue;
+}
+
+/* hover */
+.custom-hover:hover{
+  transform: scale(1.1); 
 }
 </style>

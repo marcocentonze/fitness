@@ -48,7 +48,7 @@ export default {
 
                             <div class="middle"></div>
 
-                            <div class="icon">
+                            <div class="icon custom-hover">
                                 <i class="fa-brands fa-atlassian fa-flip-horizontal"></i>
                             </div>
 
@@ -58,7 +58,7 @@ export default {
 
                         <div class="discount">
 
-                            <a href="#" class="text-decoration-none">
+                            <a href="#" class="text-decoration-none custom-hover">
                                 <h4><span class="currency">$</span>39</h4>
                                 <span>On Sale</span>
                             </a>
@@ -83,17 +83,17 @@ export default {
         <div class="container-fluid">
             <div class="container">
                 <div class="d-flex">
-                    <div class="img-services d-flex flex-column me-5" style="margin-top: -50px;">
+                    <div class="img-services d-flex flex-column me-5 custom-hover" style="margin-top: -50px;">
                         <h3 class="text-white mt-auto ms-5">Crossfit workout</h3>
                         <h6 class="text-warning ms-5">Push your limits</h6>
                     </div>
 
-                    <div class="img-services-2 d-flex flex-column me-5" style="margin-top: -50px;">
+                    <div class="img-services-2 d-flex flex-column me-5 custom-hover" style="margin-top: -50px;">
                         <h3 class="text-white mt-auto ms-5">New gym apparel</h3>
                         <h6 class="text-warning ms-5">Look good,feel good</h6>
                     </div>
 
-                    <div class="img-services-3 d-flex flex-column" style="margin-top: -50px;">
+                    <div class="img-services-3 d-flex flex-column custom-hover" style="margin-top: -50px;">
                         <h3 class="text-white mt-auto ms-5">Team training</h3>
                         <h6 class="text-warning ms-5">Find a partner</h6>
                     </div>
@@ -107,8 +107,8 @@ export default {
                 </div>
 
                 <!-- review -->
-                <div class="text-center mt-5 mb-5">
-                    <h3>"How you respond to the challenge in the second half <br>
+                <div class="text-center mt-5 mb-2">
+                    <h3 class="text-white">"How you respond to the challenge in the second half <br>
                         will determine what you become after the game,<br>
                         wether you are a winner or a loser."
                     </h3>
@@ -150,12 +150,12 @@ export default {
                 <img src="../assets/img/unnamed.jpg">
                 <div class="info">
                     <a href="#" style="color:#888788">ThemeFusion</a>
-                    <span style="background-color:#ee1e29"><a href="#" class="text-white pe-2"><i
+                    <span style="background-color:#ee1e29;border-radius:2px;"><a href="#" class="text-white pe-2 custom-hover"><i
                                 class="fa-brands fa-youtube px-2"></i>Youtube</a></span>
                 </div>
                 <div class="d-flex">
                     <span class="text-gray pt-0"
-                        style="margin-top:25px;background-color: #cdcbcf;padding:1px 5px;border-color:#555454"><a href="#"
+                        style="margin-top:25px;background-color: #cdcbcf;padding:1px 5px;border-color:#555454;border-radius:2px;"><a href="#"
                             class="text-decoration-none text-secondary">999+</a></span>
                 </div>
             </div>
@@ -163,7 +163,7 @@ export default {
             <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et suscipit, repudiandae modi<br>
                 temporibus ut, deleniti aliquam obcaecati totam fuga neque molestias harum qui! </p>
 
-            <button class="btn-youtube-2 text-white"><i class="fa-brands fa-youtube pe-2"></i>Visit my
+            <button class="btn-youtube-2 text-white custom-hover"><i class="fa-brands fa-youtube pe-2"></i>Visit my
                 Youtube channel</button>
         </div>
     </div>
@@ -178,7 +178,7 @@ export default {
 
         <div class="d-flex justify-content-center">
             <div style="text-align: center;">
-                <div style="position: relative; display: inline-block;">
+                <div style="position: relative; display: inline-block;" class="custom-hover">
                     <img src="../assets/img/video2-2x.jpg" style="width: 92%;">
                     <a href="#" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
                         <i class="fa-solid fa-circle-play fa-2x text-primary"></i>
@@ -188,7 +188,7 @@ export default {
                 <h6 class="text-center text-primary">Increase your mobility</h6>
             </div>
             <div style="text-align: center;">
-                <div style="position: relative; display: inline-block;">
+                <div style="position: relative; display: inline-block;" class="custom-hover">
                     <img src="../assets/img/video7-2x.jpg" style="width: 92%;">
                     <a href="#" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
                         <i class="fa-solid fa-circle-play fa-2x text-primary"></i>
@@ -198,7 +198,7 @@ export default {
                 <h6 class="text-center text-primary">Feel young again</h6>
             </div>
             <div style="text-align: center;">
-                <div style="position: relative; display: inline-block;">
+                <div style="position: relative; display: inline-block;" class="custom-hover">
                     <img src="../assets/img/video9-2x.jpg" style="width: 92%;">
                     <a href="#" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
                         <i class="fa-solid fa-circle-play fa-2x text-primary"></i>
@@ -238,7 +238,7 @@ export default {
     <section style="padding-top:150px;background-color: #060607;padding-bottom:100px;">
         <div class="container d-flex justify-content-center">
             <!-- 1 card -->
-            <div class="card border-primary me-5" style="width: 24rem;border-width: 4px;background-color: #060607;">
+            <div class="card border-primary me-5 custom-hover" style="width: 24rem;border-width: 4px;background-color: #060607;">
                 <div class="card-body text-center pb-5 pt-4">
                     <div class="pt-5 pb-2">
                         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" class="bi bi-smartwatch"
@@ -259,7 +259,7 @@ export default {
                 </div>
             </div>
             <!-- 2 card -->
-            <div class="card border-primary me-5 ms-5" style="width: 24rem;border-width: 4px;background-color: #060607;">
+            <div class="card border-primary me-5 ms-5 custom-hover" style="width: 24rem;border-width: 4px;background-color: #060607;">
                 <div class="card-body text-center pb-5 pt-4">
                     <div class="pt-5 pb-2">
                         <i class="fa-solid fa-dumbbell fa-2xl text-white"></i>
@@ -275,7 +275,7 @@ export default {
                 </div>
             </div>
             <!-- 3 card -->
-            <div class="card border-primary ms-5" style="width: 24rem;border-width: 4px;background-color: #060607;">
+            <div class="card border-primary ms-5 custom-hover" style="width: 24rem;border-width: 4px;background-color: #060607;">
                 <div class="card-body text-center pb-5 pt-4">
                     <div class="pt-5 pb-2">
                         <i class="fa-solid fa-weight-scale fa-2xl text-white"></i>
@@ -307,21 +307,21 @@ export default {
             </div>
 
             <div class="d-flex justify-content-center">
-                <div class="me-5">
+                <div class="me-5 custom-hover">
                     <img src="../assets/img/blog4-2x-1200x773.jpg" style="width:24rem;">
                     <h5 class="text-center pt-4">The best protein shake</h5>
                     <p class="text-center text-secondary">By <span class="text-black">Admin</span> | November 26th,2019 |
                         <span class="text-black">Gym</span>
                     </p>
                 </div>
-                <div class="me-5">
+                <div class="me-5 custom-hover">
                     <img src="../assets/img/blog1-2x-1200x773.jpg" style="width:24rem;">
                     <h5 class="text-center pt-4">Ultimate cardio workout</h5>
                     <p class="text-center text-secondary">By <span class="text-black">Admin</span> | November 26th,2019 |
                         <span class="text-black">Gym</span>
                     </p>
                 </div>
-                <div class="me-5">
+                <div class="me-5 custom-hover">
                     <img src="../assets/img/blog3-2x-1200x773.jpg" style="width:24rem;">
                     <h5 class="text-center pt-4">New juices available now</h5>
                     <p class="text-center text-secondary">By <span class="text-black">Admin</span> | November 26th,2019 |
@@ -347,7 +347,7 @@ export default {
                     <p class="text-white pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex voluptate,
                         reprehenderit, impedit consequatur ullam voluptatem ipsum <br>
                         alias exercitationem error dolores asperiores modi.</p>
-                    <button class="btn-custom-quotation text-white">Buy Avada today <i
+                    <button class="btn-custom-quotation text-white custom-hover">Buy Avada today <i
                             class="fa-solid fa-greater-than fa-2xs ps-1 pt-2"></i></button>
                 </div>
             </div>
@@ -359,7 +359,7 @@ export default {
     <section style="padding: 100px;">
         <div class="container d-flex justify-content-center">
             <!-- card 1 -->
-            <div class="card me-5 ms-5 border-0" style="width: 26rem;">
+            <div class="card me-5 ms-5 border-0 custom-hover" style="width: 26rem;">
                 <div class="card-body text-center pb-5 pt-4 ">
                     <div class="pt-5 pb-2">
                         <img src="../assets/img/sponsor-1-2x.png" class="w-100">
@@ -375,7 +375,7 @@ export default {
             </div>
 
             <!-- card 2 -->
-            <div class="card me-5 ms-5 border-0" style="width: 26rem;">
+            <div class="card me-5 ms-5 border-0 custom-hover" style="width: 26rem;">
                 <div class="card-body text-center pb-5 pt-4">
                     <div class="pt-5 pb-2">
                         <img src="../assets/img/sponsor-2-2x.png" class="w-100">
@@ -384,14 +384,14 @@ export default {
                     <p class="card-text mb-3 text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
                         quam quidem
                         repellat? Beatae temporibus.</p>
-                    <a href="#" class="card-link text-decoration-none text-black">Visit Yoga Studio <i
+                    <a href="#" class="card-link text-decoration-none text-black ">Visit Yoga Studio <i
                             class="fa-solid fa-greater-than fa-2xs ps-1"></i></a>
 
                 </div>
             </div>
 
             <!-- card 3 -->
-            <div class="card me-5 ms-5 border-0" style="width: 26rem;">
+            <div class="card me-5 ms-5 border-0 custom-hover" style="width: 26rem;">
                 <div class="card-body text-center pb-5 pt-4">
                     <div class="pt-5 pb-2">
                         <img src="../assets/img/sponsor-3-2x.png" class="w-100">
@@ -407,7 +407,7 @@ export default {
             </div>
 
             <!-- card 4 -->
-            <div class="card me-5 ms-5 border-0" style="width: 26rem;">
+            <div class="card me-5 ms-5 border-0 custom-hover" style="width: 26rem;">
                 <div class="card-body text-center pb-5 pt-4">
                     <div class="pt-5 pb-2">
                         <img src="../assets/img/sponsor-4-2x.png" class="w-100">
@@ -695,5 +695,10 @@ export default {
     background: linear-gradient(135deg, hsla(229, 63%, 36%, 1) 39%, hsla(303, 55%, 47%, 1) 68%, hsla(356, 70%, 62%, 1) 85%);
     opacity: 0.5;
 }
+
+/* hover */
+.btn-youtube:hover,.btn-buy-avada:hover,.custom-hover:hover {
+            transform: scale(1.1); 
+        }
 
 </style>
